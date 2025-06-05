@@ -1,7 +1,12 @@
 pipeline {
     agent any
     stages {
-		
+		stage('Build){
+			steps{
+			echo 'compilando el código'
+		}
+
+	}
 		
 		// ******ALL CODE TO BE ADDED BELOW THIS COMMENT******
 		
